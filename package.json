@@ -1,0 +1,17 @@
+{
+  "name": "my-photos-api-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^5.0.2",
+    "@apollo/server": "^4.6.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
