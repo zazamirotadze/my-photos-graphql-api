@@ -4,7 +4,7 @@ const  { RESTDataSource } = require("@apollo/datasource-rest")
 class PhotosApi extends RESTDataSource {
     constructor() {
         super()
-        this.baseURL = "https://gold-angry-earthworm.cyclic.app"
+        this.baseURL = "https://my-photos-api.onrender.com"
     }
     getCategories(){
         return this.get("data")
